@@ -1,6 +1,7 @@
 require 'manticore'
 require 'cgi'
-require 'aws-sdk'
+require 'aws-sigv4'
+require 'aws-sdk-core'
 require 'uri'
 
 module LogStash; module Outputs; class AmazonElasticSearch; class HttpClient;
